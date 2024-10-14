@@ -19,7 +19,6 @@
           src = self;
           propagatedBuildInputs = builtins.attrValues {
             inherit (pkgs.rPackages)
-
               bartMachine
               caret
               cowplot
